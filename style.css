@@ -1,0 +1,82 @@
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+nav {
+    background-color: #333;
+    padding: 10px;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    padding: 8px 15px;
+    border: 3px solid #f8f8f8;
+    border-radius: 5%;
+    transition: background-color 0.3s, color 0.3s;
+}
+nav a:hover {
+    background-color: #f8f8f8;
+    color: #333;
+}
+.canvas {
+    margin: 100px auto;
+    width: 80%;
+    text-align: center;
+}
+h1 {
+    color: #333;
+}
+.button {
+    width: 100px;
+    height: 100px;
+    border: solid 2px #333;
+    display: inline-block;
+    margin: 10px;
+    cursor: pointer;
+    
+}
+.button:hover {
+    transform: scale(1.1); 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.9);
+}
+
+#grey {
+    background: grey;
+}
+
+#white {
+    background: white;
+}
+
+#blue {
+    background: blue;
+}
+
+#yellow {
+    background: yellow;
+}
+
+h2 {
+    margin-top: 20px;
+}
+
+h2 span {
+    font-weight: bold;
+    color: #333;
+}
+
+ /* New styles for the footer */
+ footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
